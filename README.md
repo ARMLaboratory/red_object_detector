@@ -47,7 +47,7 @@ cd build
 cmake ../ -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 sudo make install
-
+```bash
 
 3. Install RealSense ROS2 Wrapper (realsense2_camera) version compatible with SDK 2.53.1:
 
